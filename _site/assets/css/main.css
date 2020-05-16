@@ -6036,3 +6036,5 @@ body { margin: 0; }
   .main { background-size: 100%; background-position: top; margin-top: 20px; height: 300px; }
   /*HIDE DROWDOWN IN THE NAV MENU*/
   .mobile-menu-check:checked ~ .header-nav { height: 90vh; } }
+
+/*# sourceMappingURL=main.css.map */
