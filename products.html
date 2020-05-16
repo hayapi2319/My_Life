@@ -1,0 +1,25 @@
+---
+layout: default
+title: Products
+---
+
+<h2 class="page-title">PRODUCTS</h2>
+<div class="product-container">
+{% for product in site.products %}
+  <div class="product-box">
+    <div class="product-image">
+      {% if product.name == 'エイトボールアボカド' %}
+      <a href="{{ product.url }}"><img src="/assets/image/image-pro/avocado.jpg" alt="{{ product.name }}"></a>
+      {% endif %}
+      {% if product.name == 'スパイス' %}
+      <a href="{{ product.url }}"><img src="/assets/image/image-pro/spice.jpg" alt="{{ product.name }}"></a>
+      {% endif %}
+      {% if product.name == '仲間' %}
+      <a href="{{ product.url }}"><img src="\assets\image\image-pro\friends.jpg" alt=""></a>
+      {% endif %}
+    </div>
+      <h3 class="product-name">{{ product.name }}</h3>
+      <p class="product-discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+  </div>
+{% endfor %}
+</div>

@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog
+---
+
+<h2 class="page-title">BLOG</h2>
+
+<div class="post-index">
+  {% for post in site.posts %}
+    <p>
+     <a  class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+    </p>
+  {% endfor %}
+</div>
