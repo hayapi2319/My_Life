@@ -2986,7 +2986,7 @@ body { margin: 0; }
 
 .header .list-item:last-child { margin-right: 30px; }
 
-.main { background-image: url("/assets/image/my_life.jpg"); height: 900px; background-size: 70%; background-repeat: no-repeat; background-position: 50%, 50%; }
+.main { background-image: url("assets/image/my_life.jpg"); height: 900px; background-size: 70%; background-repeat: no-repeat; background-position: 50%, 50%; }
 
 .about { text-align: center; font-family: 'Noto Sans JP', sans-serif; }
 
